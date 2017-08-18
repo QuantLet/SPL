@@ -1,0 +1,6 @@
+Name of Quantlet: HausmanSarganSims.R
+Published in: Statistical Programming Languages
+Description: Illustrates various tests applied in instrument variable estimation by simulation
+Keywords: instrumental variables, Hausman test, Sargan test, estimator, consistency, endogeneity, simulation
+See also: HausmanSarganEmpirical.R
+Author: Jovanka Matic
