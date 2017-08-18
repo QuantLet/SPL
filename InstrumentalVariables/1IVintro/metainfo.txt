@@ -1,0 +1,12 @@
+Name of Quantlet:  IVintro
+ 
+Published in:      Statistical Programming Languages
+  
+Description:       'Introduces the simple instrumental variables estimator and explores its properties using simulated data and a practical example.'
+ 
+Keywords:          econometrics, instrumental variable, regression, simulation, estimator
+
+See also:          IVquality
+
+Author:            Tobias Wolfram
+  

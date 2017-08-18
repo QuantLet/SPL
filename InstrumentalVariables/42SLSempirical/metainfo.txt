@@ -1,0 +1,6 @@
+Name of Quantlet: 2SLSempirical.R
+Published in: Statistical Programming Languages
+Description: Illustrates the 2SLS estimator using an empirical example
+Keywords: instrumental variables, two-stage least squares, estimation, hypothesis-testing, wooldridge, mroz
+See also: 2SLSsims.R
+Author: Janek Berger

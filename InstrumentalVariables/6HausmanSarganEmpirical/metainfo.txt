@@ -1,0 +1,6 @@
+Name of Quantlet: HausmanSarganEmpirical.R
+Published in: Statistical Programming Languages
+Description: Illustrates various tests applied in instrument variable estimation using an empirical example	
+Keywords: instrumental variables, Hausman test, Sargan test, estimator, endogeneity
+See also: HausmanSarganSims.R
+Author: Jovanka Matic

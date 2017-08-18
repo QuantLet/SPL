@@ -1,0 +1,12 @@
+Name of Quantlet:  IVquality
+ 
+Published in:      Statistical Programming Languages
+  
+Description:       'Analyses the consistency of the simple IV estimator as well as the effects of differing instrument quality using simulation.'
+ 
+Keywords:          econometrics, instrumental variable, regression, simulation, estimator, consistency, plot
+
+See also:          IVintro
+
+Author:            Tobias Wolfram
+  
