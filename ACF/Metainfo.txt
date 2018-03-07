@@ -1,0 +1,17 @@
+
+Name of Quantlet: SPL_ACF
+
+Published in: 'Statistical programming languages - Student Project on "Economic Forces and the Stock Market" '
+
+Description: create estimates of autocorrelation coefficients on state variables.
+
+Keywords: ACF, state variables, autocorrelation, US, time series
+
+Author: Matjaz Santej, Oliver Shaw, Ilario Ciccolella, Yang Chen
+
+
+See also: SPL_SV_Regression, SPL_SV_Correlation, SPL_Tidy_Data
+
+Submitted:  14.03.2018
+
+Input: 'Bigtable.RDS'
