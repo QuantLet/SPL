@@ -1,4 +1,4 @@
-# SPL
+# SPL_EFSM
 Codes provided by students of the course "Statistical programming languages"
 
 Name of Repository: EFSM
