@@ -5,7 +5,7 @@ graphics.off()
 
 #import all relevant libraries and install packages
 
-libraries = c("stats", "tidyverse", "LSTS")
+libraries = c("tidyverse", "LSTS")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
   install.packages(x)
 })

@@ -5,14 +5,14 @@ graphics.off()
 
 #import all relevant libraries and install packages
 
-libraries = c("stats", "tidyverse", "LSTS")
+libraries = c("tidyverse", "LSTS")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
   install.packages(x)
 })
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
 #set working directory 
-
+setwd("~/EFSM/SPL_EFSM_Box")
 
 #load all_data table for autocorrealtion test
 
