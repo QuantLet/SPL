@@ -1,10 +1,8 @@
 # clear variables and close windows
-
 rm(list = ls(all = TRUE))
 graphics.off()
 
 #import all relevant libraries and install packages
-
 libraries = c("tidyverse", "LSTS")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
   install.packages(x)
@@ -14,10 +12,9 @@ lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 #set working directory 
 setwd("~/EFSM/SPL_EFSM_Box")
 
-#load all_data table for autocorrealtion test
-
+#load tables
 all_data = readRDS("~/EFSM/SPL_EFSM_Box/big_table.RDS")
-
+ac_table24 = readRDS("~/EFSM/SPL_EFSM_Box/ac_table24.RDS")
 
 #set list of variables to calculate autocorrelation coefficients
 
