@@ -78,7 +78,7 @@ coe_B_Jan1988_Dec2000 = round(summary(reg_B_Jan1988_Dec2000)$coefficients,4)
 coe_B_Jan2001_Dec2008 = round(summary(reg_B_Jan2001_Dec2008)$coefficients,4)
 coe_B_Jan2009_Dec2017 = round(summary(reg_B_Jan2009_Dec2017)$coefficients,4)
 
-#Coefficients Cs
+#Coefficients C
 coe_C_Jan1988_Dec2017 = round(summary(reg_C_Jan1988_Dec2017)$coefficients,4)
 coe_C_Jan1988_Dec2000 = round(summary(reg_C_Jan1988_Dec2000)$coefficients,4)
 coe_C_Jan2001_Dec2008 = round(summary(reg_C_Jan2001_Dec2008)$coefficients,4)
