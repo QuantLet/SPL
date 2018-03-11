@@ -84,19 +84,21 @@ coe_C_Jan1988_Dec2000 = round(summary(reg_C_Jan1988_Dec2000)$coefficients,4)
 coe_C_Jan2001_Dec2008 = round(summary(reg_C_Jan2001_Dec2008)$coefficients,4)
 coe_C_Jan2009_Dec2017 = round(summary(reg_C_Jan2009_Dec2017)$coefficients,4)
 
-#Coefficients Ds
+#Coefficients D
 coe_D_Jan1988_Dec2017 = round(summary(reg_D_Jan1988_Dec2017)$coefficients,4)
 coe_D_Jan1988_Dec2000 = round(summary(reg_D_Jan1988_Dec2000)$coefficients,4)
 coe_D_Jan2001_Dec2008 = round(summary(reg_D_Jan2001_Dec2008)$coefficients,4)
 coe_D_Jan2009_Dec2017 = round(summary(reg_D_Jan2009_Dec2017)$coefficients,4)
 
-#Coefficients Es
+#Coefficients E
 coe_E_Jan1988_Dec2017 = round(summary(reg_E_Jan1988_Dec2017)$coefficients,4)
 coe_E_Jan1988_Dec2000 = round(summary(reg_E_Jan1988_Dec2000)$coefficients,4)
 coe_E_Jan2001_Dec2008 = round(summary(reg_E_Jan2001_Dec2008)$coefficients,4)
 coe_E_Jan2009_Dec2017 = round(summary(reg_E_Jan2009_Dec2017)$coefficients,4)
 
-A_list = list(coe_A_Jan1988_Dec2017 = coe_A_Jan1988_Dec2017, coe_A_Jan1988_Dec2000 = coe_A_Jan1988_Dec2000,
+
+
+coe_list = list(coe_A_Jan1988_Dec2017 = coe_A_Jan1988_Dec2017, coe_A_Jan1988_Dec2000 = coe_A_Jan1988_Dec2000,
               coe_A_Jan2001_Dec2008= coe_A_Jan2001_Dec2008, coe_A_Jan2009_Dec2017=coe_A_Jan2009_Dec2017,
               coe_B_Jan1988_Dec2017 = coe_B_Jan1988_Dec2017, coe_B_Jan1988_Dec2000 = coe_B_Jan1988_Dec2000,
               coe_B_Jan2001_Dec2008= coe_B_Jan2001_Dec2008, coe_B_Jan2009_Dec2017=coe_B_Jan2009_Dec2017,
@@ -106,7 +108,7 @@ A_list = list(coe_A_Jan1988_Dec2017 = coe_A_Jan1988_Dec2017, coe_A_Jan1988_Dec20
               coe_D_Jan2001_Dec2008= coe_D_Jan2001_Dec2008, coe_D_Jan2009_Dec2017=coe_D_Jan2009_Dec2017,
               coe_E_Jan1988_Dec2017 = coe_E_Jan1988_Dec2017, coe_E_Jan1988_Dec2000 = coe_E_Jan1988_Dec2000,
               coe_E_Jan2001_Dec2008= coe_E_Jan2001_Dec2008, coe_E_Jan2009_Dec2017=coe_E_Jan2009_Dec2017)
-for (i in names(A_list)){
-  write.csv(A_list[[i]], paste0(i, ".csv"))
+for (i in names(coe_list)){
+  write.csv(coe_list[[i]], paste0(i, ".csv"))
 }
 
