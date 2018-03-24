@@ -1,0 +1,17 @@
+
+Name of Quantlet: SPL_EFSM_Import Data
+
+Published in: 'Statistical programming languages - Student Project on "EFSM" '
+
+Description: import data and calculate variables.
+
+Keywords: data, basic variable, derived variable, big_table
+
+Authors: Matjaz Santej, Oliver Shaw, Ilario Ciccolella, Yang Chen
+
+
+See also: SPL_EFSM_Regression, SPL_EFSM_Correlation, SPL_EFSM_ACF
+
+Submitted:  14.03.2018
+
+Input: 'csv files from folder raw data'

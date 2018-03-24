@@ -1,0 +1,17 @@
+
+Name of Quantlet: SPL_EFSM_ACF
+
+Published in: 'Statistical programming languages - Student Project on "EFSM" '
+
+Description: create estimates of autocorrelation coefficients on state variables.
+
+Keywords: ACF, state variables, autocorrelation, US, time series
+
+Author: Matjaz Santej, Oliver Shaw, Ilario Ciccolella, Yang Chen
+
+
+See also: SPL_EFSM_Regression, SPL_EFSM_Correlation, SPL_EFSM_Readin
+
+Submitted:  14.03.2018
+
+Input: 'Bigtable.RDS'
