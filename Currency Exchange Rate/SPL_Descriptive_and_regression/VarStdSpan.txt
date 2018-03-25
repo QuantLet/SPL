@@ -1,8 +1,0 @@
-Exchange Rate       GDP_EU       GDP_US       Import
-Variance             1.920565e-02 2.476479e+11 1.253885e+18 3.331449e+07
-Standard Divergence  1.385844e-01 4.976424e+05 1.119770e+09 5.771871e+03
-Span                 5.370000e-01 2.084493e+06 4.111500e+09 2.210770e+04
-                            Gold    Crude Oil       Export       Silver
-Variance            2.283863e+05 9.684441e+02 1.655832e+07 8.985444e+01
-Standard Divergence 4.778978e+02 3.111984e+01 4.069192e+03 9.479158e+00
-Span                1.511660e+03 1.143054e+02 1.446160e+04 3.857260e+01

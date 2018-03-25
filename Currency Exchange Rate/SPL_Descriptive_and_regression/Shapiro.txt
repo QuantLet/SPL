@@ -1,6 +1,0 @@
-Exchange.Rate GDP.EU     GDP.US       Import      
-statistic 0.8661088     0.9376075  0.9495668    0.9673232   
-p.value   5.451041e-12  2.3179e-07 2.654329e-06 0.0001884601
-          Gold         Crude.Oil    Export       Silver      
-statistic 0.9054876    0.9257483    0.9264628    0.8925012   
-p.value   1.021571e-09 2.658674e-08 3.010799e-08 1.587765e-10
