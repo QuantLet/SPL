@@ -1,7 +1,19 @@
 
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
 
-## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **South African Heart Disease Study** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
+**South African Heart Disease Study**
+
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Data Preparation](SAHeart_Q1_Data_Preparation)
+
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Desriptive Statistics](SAHeart_Q2_Desriptive_Statistics)
+
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Fisher Linear Discreminant](SAHeart_Q3_Fisher_Linear_Discreminant)
+
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="30"> **[SAHeart_Q1_Data_Preparation](SAHeart_Q1_Data_Preparation)**
+
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="30"> **[SAHeart_Q1_Data_Preparation](SAHeart_Q1_Data_Preparation)**
+
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="30"> **[SAHeart_Q1_Data_Preparation](SAHeart_Q1_Data_Preparation)**
 
 ```yaml
 
@@ -18,4 +30,4 @@ Logistic Regression, Leave-one-out Cross-Validation, Cook’s Distance
 
 Author : Lukas Bargel, Adrian Rolf and Felix Vala
 
-Submitted : March 30th, 2018222
+Submitted : March 30th, 2018
