@@ -13,7 +13,7 @@
 
 <img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Leave-One-Out Cross-Validation](SAHeart_Q5_Leave-One-Out_Cross-Validation)
 
-<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [SAHeart_Q6_Cooks_Distance](SAHeart_Q6_Cooks_Distance)
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Cooks Distance](SAHeart_Q6_Cooks_Distance)
 
 ```yaml
 
