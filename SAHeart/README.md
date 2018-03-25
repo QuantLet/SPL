@@ -5,7 +5,7 @@
 
 ```yaml
 
-Name of Quantlet : SAHeart
+Name of Repository : SAHeart
 
 Published in : Statistical Programming Language Seminar Paper
 
