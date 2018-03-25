@@ -1,7 +1,7 @@
 
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
 
-**South African Heart Disease Study**
+### South African Heart Disease Study
 
 <img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Data Preparation](SAHeart_Q1_Data_Preparation)
 
@@ -9,11 +9,11 @@
 
 <img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Fisher Linear Discreminant](SAHeart_Q3_Fisher_Linear_Discreminant)
 
-<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="30"> **[SAHeart_Q1_Data_Preparation](SAHeart_Q1_Data_Preparation)**
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Logistic Regression](SAHeart_Q4_Logistic_Regression)
 
-<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="30"> **[SAHeart_Q1_Data_Preparation](SAHeart_Q1_Data_Preparation)**
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Leave-One-Out Cross-Validation](SAHeart_Q5_Leave-One-Out_Cross-Validation)
 
-<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="30"> **[SAHeart_Q1_Data_Preparation](SAHeart_Q1_Data_Preparation)**
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [SAHeart_Q6_Cooks_Distance](SAHeart_Q6_Cooks_Distance)
 
 ```yaml
 
