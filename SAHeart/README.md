@@ -18,4 +18,4 @@ Logistic Regression, Leave-one-out Cross-Validation, Cook’s Distance
 
 Author : Lukas Bargel, Adrian Rolf and Felix Vala
 
-Submitted : March 30th, 2018
+Submitted : March 30th, 2018222
