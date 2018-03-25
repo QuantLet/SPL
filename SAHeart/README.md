@@ -7,7 +7,7 @@
 
 <img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Desriptive Statistics](SAHeart_Q2_Desriptive_Statistics)
 
-<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Fisher Linear Discreminant](SAHeart_Q3_Fisher_Linear_Discreminant)
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Fisher Linear Discriminant](SAHeart_Q3_Fisher_Linear_Discriminant)
 
 <img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Logistic Regression](SAHeart_Q4_Logistic_Regression)
 
