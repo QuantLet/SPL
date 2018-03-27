@@ -38,6 +38,6 @@ Submitted : March 30th, 2018
 
 **Here you see some Plots from the Repository**
 
-<img src="SAHeart_Q2_Desriptive_Statistics/SAHeart_Q2_Desriptive_Statistics_1.png">
-
 <img src="SAHeart_Q2_Desriptive_Statistics/SAHeart_Q2_Desriptive_Statistics_2.png">
+
+<img src="SAHeart_Q2_Desriptive_Statistics/SAHeart_Q2_Desriptive_Statistics_1.png">
