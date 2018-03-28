@@ -61,7 +61,7 @@ if(!dir.exists(PDFpath)){
 
 ##################################
 ##                              ##
-##   1. Desciption of dataset   ##
+##    Description of dataset    ##
 ##                              ##
 ##################################
 
