@@ -7,7 +7,7 @@
 
 Name of Quantlet :  SAHeart_Q3_Fisher_Linear_Discriminant
 
-Published in : Statistical Programming Language Seminar Paper
+Published in : Statistical Programming Language Seminar Paperr
 
 Description : 'The aim of this paper is to reproduce and consolidate the findings of
 a classical empirical paper using recent statistical methods. Thereby, capabilities
