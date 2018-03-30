@@ -11,7 +11,7 @@ loadPKG <- function(pkg){
 }
 
 loadPKG("dplyr")
-loadPKG("ggplot22")          
+loadPKG("ggplot2")          
 loadPKG("gridExtra")        
 loadPKG("ElemStatLearn")    
 loadPKG("corrplot")
