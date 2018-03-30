@@ -44,7 +44,7 @@ SAheart$famhist[SAheart$famhist == 2] <- 1
 ##################################
 ##                              ##
 ##  Fisher Linear Discirminant  ##
-##                               ##
+##                              ##
 ##################################
   
 
