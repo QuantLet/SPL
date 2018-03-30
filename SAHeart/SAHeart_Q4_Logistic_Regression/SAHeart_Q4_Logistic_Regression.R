@@ -42,7 +42,74 @@ SAheart$famhist <- as.numeric(SAheart$famhist)
 SAheart$famhist[SAheart$famhist == 1] <- 0   
 SAheart$famhist[SAheart$famhist == 2] <- 1
 
+## Function to show Boxplots of covariates over chd
+multiBP <- function(varlist, PDFpath = NULL){
+  plot.list <- lapply(varlist, function(ivar){
+    ggplot(data = SAheart, mapping = aes(x = as.factor(chd), y = get(ivar))) +
+      geom_boxplot(stat = "boxplot", position = "dodge") +
+      theme_bw() +
+      xlab("chd") + 
+      ylab(ivar)
+  })
+  
+  if(length(plot.list) <= 3){
+    ncol <- length(plot.list)
+  }else{
+    ncol <- 3
+  }
+  
+  final.plot <- grid.arrange(grobs = plot.list, ncol=ncol)
+}
 
+## Function to visualize behaviour of single observations 
+multiJP <- function(varlist, obslist = 0, PDFpath = NULL, label = FALSE){
+  
+  if(label){
+    labellist <- obslist
+    varlist <- c(varlist, "legend")
+  }else{
+    labellist <- ""
+  }
+  
+  color.list <- c("firebrick", "dodgerblue", "forestgreen", 
+                  "orangered", "violet", "yellow3")
+  
+  plot.list <- lapply(varlist, function(ivar){
+    if(ivar == "legend"){
+      hackdata <- data.frame(id = obslist,
+                             position = seq(1,length(obslist)),
+                             xvalue = 0.11)
+      legend <- ggplot(data = hackdata, mapping = aes(x = xvalue, y = position)) +
+        geom_point(colour = color.list[1:length(obslist)], shape = 17, size = 3) +
+        theme_classic() +
+        theme(axis.text = element_blank(), axis.ticks = element_blank(), 
+              axis.line = element_blank()) + 
+        labs(x = "", y = "") +
+        scale_y_continuous(expand = c(0, 0), limits = c(0, max(hackdata$position)+1)) +
+        scale_x_continuous(limits = c(0.1, 1)) +
+        geom_text(data = hackdata, aes(label = id), 
+                  colour = color.list[1:length(obslist)], size = 3, hjust = -1)
+      
+    }else{
+      
+      ggplot(data = SAheart[!(SAheart$id %in% obslist),], 
+             mapping = aes(x = as.factor(chd), y = get(ivar))) +
+        geom_jitter(shape = 1) +
+        theme_bw() +
+        xlab("chd") + 
+        ylab(ivar) +
+        geom_jitter(data = SAheart[SAheart$id %in% obslist,], 
+                    colour = color.list[1:length(obslist)], shape = 17, size = 3) # +
+    }
+  })
+  
+  if(length(plot.list) <= 3){
+    ncol <- length(plot.list)
+  }else{
+    ncol <- 3
+  }
+  final.plot <- grid.arrange(grobs = plot.list, ncol=ncol)
+}
   
 ##################################
 ##                              ##
@@ -53,7 +120,7 @@ SAheart$famhist[SAheart$famhist == 2] <- 1
 
 ## M0: (naive) Full model
 m0 <- glm(chd ~ ., family = binomial(link = "logit"), 
-          data = select(SAheart, -tobacco, -id))
+          data = select(SAheart, -id))
 summary(m0)
 
  
@@ -74,7 +141,8 @@ m2 <- glm(chd ~ tobacco + age + famhist + ldl + typea,
 summary(m2)
 
 
-## M3: For sake of simplicity of models we try to exclude typea, since effect seems to be still very low
+## M3: For sake of simplicity of models we try to exclude
+## typea, since effect seems to be still very low
 m3 <- glm(chd ~ tobacco + age + famhist + ldl, 
           family = binomial(link = "logit"), data = SAheart)
 summary(m3)
@@ -82,8 +150,7 @@ summary(m3)
 
 
 ## typea: mediator effect via age
-    
-## Does typea has an influence on chd as regression suggest; graphics doesn't really show this
+
 mean(SAheart$chd[SAheart$typea >= median(SAheart$typea)])
 mean(SAheart$chd[SAheart$typea < median(SAheart$typea)])
 
@@ -97,7 +164,5 @@ varlist <- c("sbp", "tobacco", "age", "ldl", "typea", "famhist")
 multiJP(varlist, obslist, label = TRUE)
 
 
-          
 summary(glm(chd ~ typea, family = binomial(link = "logit"), data = SAheart))
 summary(glm(chd ~ typea + age, family = binomial(link = "logit"), data = SAheart))
-

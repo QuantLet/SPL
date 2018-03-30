@@ -1,4 +1,3 @@
-
 ## Check if required packages are installed, if not install and load
 loadPKG <- function(pkg){
   if(!(pkg %in% installed.packages())){

@@ -102,19 +102,16 @@ multiBP(varlist, PDFpath)
 ## Suspicious outlier
 SAheart$id[SAheart$age <= 20 & SAheart$chd == 1]
 
-summary(subset(SAheart, select = varlist, chd == 1))
 subset(SAheart, select = varlist, id == 261)         
 subset(SAheart, select = varlist, id == 21)
-
+summary(subset(SAheart, select = varlist, chd == 1))
 
 ## Function to visualize behaviour of single observations 
 multiJP <- function(varlist, obslist = 0, PDFpath = NULL, label = FALSE){
   
+  
   if(label){
-    labellist <- obslist
     varlist <- c(varlist, "legend")
-  }else{
-    labellist <- ""
   }
   
   color.list <- c("firebrick", "dodgerblue", "forestgreen", 
@@ -152,15 +149,12 @@ multiJP <- function(varlist, obslist = 0, PDFpath = NULL, label = FALSE){
   if(length(plot.list) <= 3){
     ncol <- length(plot.list)
   }else{
-    ncol <- 3
-  }
+    ncol <- 3 }
   
   final.plot <- grid.arrange(grobs = plot.list, ncol=ncol)
   
   if(!is.null(PDFpath)){
-    ggsave(filename = "/JPplot.pdf", path = PDFpath, device = "pdf", plot = final.plot)
-  }
-}
+    ggsave(filename = "/Jitterplot_outliers.pdf", path = PDFpath, device = "pdf", plot = final.plot)}}
 
 
 varlist <- c("sbp", "tobacco", "age", "ldl", "adiposity")

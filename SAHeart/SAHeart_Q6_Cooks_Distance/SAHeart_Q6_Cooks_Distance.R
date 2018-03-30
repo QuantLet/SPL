@@ -133,7 +133,7 @@ cd <- cooks.distance(m2)
 
 obslist <- SAheart$id[cd >= 0.015]
 varlist <- c("typea", "tobacco", "age", "ldl", "famhist")
-
+multiJP(varlist, obslist, label = TRUE, PDFpath = PDFpath)
 
 ## Drop all very influencial obs for model calc
   obslist <- SAheart$id[cd >= 0.015]
@@ -143,8 +143,8 @@ varlist <- c("typea", "tobacco", "age", "ldl", "famhist")
   summary(m2.1)
   loo_cv(m2.1)
   
-  
-# Drop only the influencial points that are very suspiciuous in the graphics and whose excluding can be justified with theory
+# Drop only the influencial points that are very suspiciuous in the graphics
+# and whose excluding can be justified with theory
   obslist <- c("17", "261", "21")
   m2.2 <- glm(chd ~ tobacco + age + famhist + ldl + typea, 
               family = binomial(link = "logit"), 
