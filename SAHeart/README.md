@@ -6,7 +6,7 @@
 
 <img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Data Preparation](SAHeart_Q1_Data_Preparation)
 
-<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Desriptive Statistics](SAHeart_Q2_Desriptive_Statistics)
+<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Descriptive Statistics](SAHeart_Q2_Descriptive_Statistics)
 
 <img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" width="20"> [Fisher Linear Discriminant](SAHeart_Q3_Fisher_Linear_Discriminant)
 
