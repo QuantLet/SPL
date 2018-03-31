@@ -16,7 +16,7 @@ of using of the statistical programming language R will be demonstrated.'
 Keywords : South African Heart Disease, Fisher Linear Discriminant,
 Logistic Regression, Leave-one-out Cross-Validation, Cook’s Distance
 
-Author : Lukas Bargel, Adrian Rolf and Felix Vala
+Author : Lukas Bargel, Adrian Rolf and Felix Valaa
 
 Submitted : March 30th, 2018
 
