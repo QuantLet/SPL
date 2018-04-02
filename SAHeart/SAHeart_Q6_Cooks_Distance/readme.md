@@ -13,7 +13,7 @@ Description : 'The aim of this paper is to reproduce and consolidate the finding
 a classical empirical paper using recent statistical methods. Thereby, capabilities
 of using of the statistical programming language R will be demonstrated.' 
 
-Keywords : South African Heart Disease, Fisher Linear Discriminant,
+Keywords : South African Heart Disease, Fisher's Linear Discriminant,
 Logistic Regression, Leave-one-out Cross-Validation, Cook’s Distance
 
 Author : Lukas Bargel, Adrian Rolf and Felix Vala
