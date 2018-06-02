@@ -1,5 +1,5 @@
 ﻿
-Name of Quantlet: SPL_Animation_Choreopleth_Map
+Name of Quantlet: SPL_Animation-Choreopleth_Map
 
 Published in: 'Statistical programming languages - Student Project on "Overview with Analysis of the Effects of the Currency Exchange Rate US Dollar/EUR on the European and U.S. Economy" '
 

@@ -15,5 +15,5 @@ Submitted:  14.08.2016
 
 Input: 'EconData.txt'
 
-Example: 'Boxplot1.png', 'Histogramm1.png', 'Histogramm2.png', 'QQnorm1.png', 'Stem_EU.txt','SummaryVar.txt','VarStdSpan.txt', 'Scatterplot1.png', 'Regression.txt'
+Example: 'Boxplot1.png, Histogramm1.png, Histogramm2.png, QQnorm1.png, Stem_EU.txt, SummaryVar.txt, VarStdSpan.txt, Scatterplot1.png, Regression.txt'
 

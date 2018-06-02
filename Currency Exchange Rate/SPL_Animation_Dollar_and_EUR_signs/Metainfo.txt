@@ -1,5 +1,5 @@
 ﻿
-Name of Quantlet: SPL_Animation_Dollar_and_EUR_Signs
+Name of Quantlet: SPL_Animation_Dollar_and_EUR-Signs
 
 Published in: 'Statistical programming languages - Student Project on "Overview with Analysis of the Effects of the Currency Exchange Rate US Dollar/EUR on the European and U.S. Economy" '
 

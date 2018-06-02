@@ -15,4 +15,4 @@ Submitted:  14.08.2016
 
 Input: 'EconData.txt'
 
-Example: 'Exchange-2000-2008-2016.png', 'MapXchange.mp4'
+Example: 'Exchange-2000-2008-2016.png, MapXchange.mp4'
