@@ -1,0 +1,19 @@
+
+Name of Quantlet : MOEmergedata
+
+Published in : 'SPL2018 - The Merit Order Effect in the German Power Market'
+
+Description : 'Matches the timeframes, calculates daily values and merges data
+cleaned by the ''MOErawdata'' Quantlet.'
+
+Keywords : data, read, clean, time, energy market, merge, aggregate
+
+Author : Bruni Puri, Manuel Pfeuffer
+
+See also : 'MOErawdata'
+
+Submitted : Fri, June 29 2018 by Manuel Pfeuffer
+
+Datafile : '../MOErawdata/MOEdata_clean.Rdata'
+
+Output : MOEdata_merge.Rdata
