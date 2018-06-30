@@ -1,0 +1,28 @@
+
+Name of Quantlet : MOErawdata
+
+Published in : 'SPL2018 - The Merit Order Effect in the German Power Market'
+
+Description : 'Reads, formats and cleans the raw data sets. Resulting
+dataframes are saved as .csv and .Rdata files.'
+
+Keywords : data, price, demand, time, series
+
+Author : Bruni Puri, Manuel Pfeuffer
+
+Submitted : Fri, June 29 2018 by Manuel Pfeuffer
+
+Datafile : 
+    - inputs/demand_2015_entsoe.csv
+    - inputs/demand_2016_entsoe.csv
+    - inputs/demand_2017_entsoe.csv
+    - inputs/demand_2018_entsoe.csv
+    - inputs/price_elspot.csv
+    - inputs/renew_AT_2015.csv
+    - inputs/renew_AT_2016.csv
+    - inputs/renew_AT_2017.csv
+    - inputs/renew_AT_2018.csv
+    - inputs/solar_DE_netztransp.csv
+    - inputs/wind_DE_netztransp.csv
+
+Output : MOEdata_clean.Rdata
