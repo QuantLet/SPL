@@ -1,0 +1,17 @@
+Name of Quantlet: TSAtestFUNRunningSD
+
+Published in: Statistical programming languages - Student Project on "Twitter Sentiment Analysis regarding Critical Slowing Down (CSD) indicators."
+
+Description: Calculates the deviation in results between the user build function getRunningSD, which calculates the running standard deviation for all moving windows along a time series at once and the classical approach of using a for-loop to calculate the standard deviation for each window along the time series separately.
+
+Keywords: Test, function, standard deviation, deviation, rolling window, sliding window, CSD indicators, user-built, custom
+
+Author: Justin Bugeja, Michael Kostmann, Mario Peplinski
+
+See also: SPL_TSAcalcCSDind
+
+Submitted: 12.08.2018
+
+Datafile: tweets_raw.csv
+
+Input: tweets_raw.csv

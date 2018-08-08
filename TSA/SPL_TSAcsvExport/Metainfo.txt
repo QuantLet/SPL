@@ -1,0 +1,11 @@
+Name of Quantlet: TSAcsvExport
+
+Published in: Early warning signals for critical transitions in Bitcoin Tweets
+
+Description: Requests tweet information from local database and generates a csv file.
+
+Keywords: twitter, mysql
+
+Author: Justin Bugeja, Mario Peplinski, Michael Kostmann
+
+Submitted:  Sun, August 12 2018 by Justin Bugeja, Mario Peplinski, Michael Kostmann

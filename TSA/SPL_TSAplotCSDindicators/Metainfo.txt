@@ -1,0 +1,17 @@
+Name of Quantlet: TSAplotCSDIndicators
+
+Published in: Statistical programming languages - Student Project on "Twitter Sentiment Analysis regarding Critical Slowing Down (CSD) indicators."
+
+Description: A function to plot the range of indicators (lag-1-autocorrelation, skewness, variance) that are measured through the SPL_TSAcalcCSDind Quantlet. The output graphs can me manipulated by changing the initial conditions in the script.
+
+Keywords: Range, autocorrelation, lag-1-autocorrelation, skewness, variance
+
+Author: Justin Bugeja, Michael Kostmann, Mario Peplinski
+
+Submitted: 12.08.2018
+
+Datafile: ../SPL_TSAcalcCSDind/positive_var.csv, ../SPL_TSAcalcCSDind/negative_var.csv, ../SPL_TSAcalcCSDind/positive_acf.csv, ../SPL_TSAcalcCSDind/negative_acf.csv, ../SPL_TSAcalcCSDind/positive_skew.csv, ../SPL_TSAcalcCSDind/negative_skew.csv
+
+Input: ../SPL_TSAcalcCSDind/positive_var.csv, ../SPL_TSAcalcCSDind/negative_var.csv, ../SPL_TSAcalcCSDind/positive_acf.csv, ../SPL_TSAcalcCSDind/negative_acf.csv, ../SPL_TSAcalcCSDind/positive_skew.csv, ../SPL_TSAcalcCSDind/negative_skew.csv
+
+Output:  graphs/p_POS.pdf, graphs/p_NEG.pdf

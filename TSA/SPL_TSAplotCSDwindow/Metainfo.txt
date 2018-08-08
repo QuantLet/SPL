@@ -1,0 +1,17 @@
+Name of Quantlet: TSAplotCSDWindow
+
+Published in: Statistical programming languages - Student Project on "Twitter Sentiment Analysis regarding Critical Slowing Down (CSD) indicators."
+
+Description: A function to plot the indicators (lag-1-autocorrelation, skewness, variance, W2) for individual window sizes. The output graphs can me manipulated by changing the initial conditions in the script.
+
+Keywords: W2, autocorrelation, lag-1-autocorrelation, skewness, variance, window size
+
+Author: Justin Bugeja, Michael Kostmann, Mario Peplinski
+
+Submitted: 12.08.2018
+
+Datafile: ../SPL_TSAcalcCSDind/*.csv
+
+Input: ../SPL_TSAcalcCSDind/*.csv
+
+Output:  graphs/p_ALL_NEG_24.pdf, graphs/p_ALL_NEG_25.pdf, graphs/p_ALL_POS_24.pdf, graphs/p_ALL_POS_25.pdf

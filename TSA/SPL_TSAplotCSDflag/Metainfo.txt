@@ -1,0 +1,17 @@
+Name of Quantlet: TSAplotCSDFlag
+
+Published in: Statistical programming languages - Student Project on "Twitter Sentiment Analysis regarding Critical Slowing Down (CSD) indicators."
+
+Description: A function to plot the percentage of windows that detect Critical Slowing Down in the Twitter sentiment dataset.
+
+Keywords: Flag, Percent, autocorrelation, lag-1-autocorrelation, skewness, variance
+
+Author: Justin Bugeja, Michael Kostmann, Mario Peplinski
+
+Submitted: 12.08.2018
+
+Datafile: ../SPL_TSAcalcCSDind/positive_flag.csv, ../SPL_TSAcalcCSDind/negative_flag.csv
+
+Input: ../SPL_TSAcalcCSDind/positive_flag.csv, ../SPL_TSAcalcCSDind/negative_flag.csv
+
+Output:  graphs/p_flags.pdf

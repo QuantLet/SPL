@@ -1,0 +1,17 @@
+Name of Quantlet: TSAtestFUNMovingWindow
+
+Published in: Statistical programming languages - Student Project on "Twitter Sentiment Analysis regarding Critical Slowing Down (CSD) indicators."
+
+Description: Calculates the deviation in results and running time between the user build functions getMovingWindowACF, getMovingWindowVAR, and getMovingWindowSKEW (which utilise Fast-Fourier-Transform) and the classical (brute force) approach of calculating moving window statistics with the help of the R function rollapply.
+
+Keywords: Test, function, Fast-Fourier-Transform, FFT, roll apply, system.time, deviation, rolling window, sliding window, CSD indicators, user-built, custom
+
+Author: Justin Bugeja, Michael Kostmann, Mario Peplinski
+
+See also: SPL_TSAcalcCSDind
+
+Submitted: 12.08.2018
+
+Datafile: tweets_raw.csv
+
+Input: tweets_raw.csv

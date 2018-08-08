@@ -1,0 +1,19 @@
+
+Name of Quantlet: TSAgetSentimentData
+
+Published in: Early warning signals for critical transitions in Bitcoin Tweets
+
+Description: Provides support function for the tweet analysis.
+
+Keywords: tweets, sentiment, syuzhet
+
+Author: Justin Bugeja, Mario Peplinski, Michael Kostmann
+
+Submitted:  Sun, August 12 2018 by Justin Bugeja, Mario Peplinski, Michael Kostmann
+
+Input: 
+- tweetsDF  : Dataframe containing returned by Twitter API
+- sentiType : 'A character string indicating which sentiment data should be returned. This must be one of the strings "positive", "negative", or "all".'
+
+Output:
+- time_series : Dataframe containing timeindex and corresponding sentiment score

@@ -1,0 +1,18 @@
+# Get Sentiment Time Series
+getSentimentTimeSeries = function(tweetsDF, 
+                                  sentiType = c("positive", 
+                                                "negative", 
+                                                "all")) {
+      sentiment = get_sentiment(tweetsDF$text, method = "syuzhet")
+      tweetsDF  = cbind(tweetsDF, sentiment)
+      type      = match.arg(sentiType)
+      tweets    = switch(type,
+                         positive = tweets[tweets$sentiment > 0,],
+                         negative = tweets[tweets$sentiment < 0,],
+                         all      = tweets)
+      time_series = tweets %>%
+              select(created_at, sentiment) %>%
+              group_by(day = floor_date(created_at, "day")) %>% 
+              summarise(sentsum = sum(sentiment)/length(sentiment))
+      time_series
+} 

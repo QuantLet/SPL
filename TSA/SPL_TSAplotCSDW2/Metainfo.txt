@@ -1,0 +1,17 @@
+Name of Quantlet: TSAplotCSDW2
+
+Published in: Statistical programming languages - Student Project on "Twitter Sentiment Analysis regarding Critical Slowing Down (CSD) indicators."
+
+Description: A function to plot the W2 indicator for Critical Slowing Down. This plot also shows the running mean, magnitude of standard deviation, and two times the magnitude of standard deviation. The output graphs can me manipulated by changing the initial conditions in the script.
+
+Keywords: W2, running mean, standard deviation, autocorrelation, lag-1-autocorrelation, skewness, variance
+
+Author: Justin Bugeja, Michael Kostmann, Mario Peplinski
+
+Submitted: 12.08.2018
+
+Datafile: ../SPL_TSAcalcCSDind/positive_flag.csv, ../SPL_TSAcalcCSDind/negative_flag.csv, ../SPL_TSAcalcCSDind/positive_W2.csv, ../SPL_TSAcalcCSDind/negative_W2.csv
+
+Input: ../SPL_TSAcalcCSDind/positive_flag.csv, ../SPL_TSAcalcCSDind/negative_flag.csv, ../SPL_TSAcalcCSDind/positive_W2.csv, ../SPL_TSAcalcCSDind/negative_W2.csv
+
+Output:  graphs/p_W2full_POS_24.pdf, graphs/p_W2full_NEG_24.pdf, graphs/p_W2full_POS_25.pdf, graphs/p_W2full_NEG_25.pdf

@@ -1,0 +1,19 @@
+Name of Quantlet: TSAcalcCSDindicators
+
+Published in: Statistical programming languages - Student Project on "Twitter Sentiment Analysis regarding Critical Slowing Down (CSD) indicators."
+
+Description: For a given csv-dataset of Tweets, a time series of the share of positive resp. negative sentiment Tweets is generated. For this time series autocorrelation, variance, skewness, and W2 measure (see Drake, J., Griffen, B., 2010) are calculated in a moving (overlapping) window approach for multiple window sizes.
+
+Keywords: Twitter, Tweets, Fast-Fourier-Transform, moving window, sliding window, autocorrelation, lag-1-autocorrelation, skewness, variance
+
+Author: Justin Bugeja, Michael Kostmann, Mario Peplinski
+
+See also: SPL_TSAtestFUNmw, SPL_TSAtestFUNrSD
+
+Submitted: 12.08.2018
+
+Datafile: tweets_raw.csv
+
+Input: tweets_raw.csv
+
+Output:  positve_acf.csv, positive_var.csv, positive_skew.csv, positive_W2.csv, positive_ts.csv, negative_acf.csv, negative_var.csv, negative_skew.csv, negative_W2.csv, negative_ts.csv

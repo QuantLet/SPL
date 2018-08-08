@@ -1,0 +1,12 @@
+
+Name of Quantlet: TSAscraperScript
+
+Published in: Early warning signals for critical transitions in Bitcoin Tweets
+
+Description: Gathers tweets from Twitter API.
+
+Keywords: twitter, mysql
+
+Author: Justin Bugeja, Mario Peplinski, Michael Kostmann
+
+Submitted:  Sun, August 12 2018 by Justin Bugeja, Mario Peplinski, Michael Kostmann
