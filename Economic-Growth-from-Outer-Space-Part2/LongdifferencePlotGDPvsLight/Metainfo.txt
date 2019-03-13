@@ -1,0 +1,17 @@
+﻿
+Name of Quantlet: LongdifferencePlotGDPvsLight
+
+Published in: 'Statistical programming languages - Student Project on "Measuring Economic Growth from Outer Space"
+Description: Plot Long difference Result GDP vs Light
+
+Keywords: Long difference, ggplot2, GDP, Light density
+
+Author: Zhang Ran 
+
+See also: Satellitedatamerge, RegressionLongDifference
+
+Submitted:  13.03.2019
+
+Input: 'LongdifferencePlotGDPvsLight.csv'
+
+Output: 'LongdifferencePlotGDPvsLight.png'
