@@ -1,0 +1,17 @@
+Name of Quantlet: Satellitedatamerge
+
+Published in: 'Statistical programming languages - Student Project on "Measuring Economic Growth from Outer Space"
+Description: Merge data for regression 
+
+Keywords: data merge, reshape, satellite data
+
+Author: Zhang Ran 
+
+See also: LongdifferencePlotGDPvsLight, RegressionLongDifference
+
+Submitted:  13.03.2019
+
+Input: 'SatellitedatamergeInput' folder with .csv files inside
+
+Output: 'SatellitedatamergeOutput1.csv' Panel data for fixed effect regression 
+        'SatellitedatamergeOutput2.csv' Long differenced data for long difference regression
