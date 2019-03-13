@@ -1,0 +1,16 @@
+Name of Quantlet:RegressionLongDifference
+
+Published in: 'Statistical programming languages - Student Project on "Measuring Economic Growth from Outer Space"
+Description: Regression Result of Long Differenced Model
+
+Keywords: Long difference, Light density, lm
+
+Author: Zhang Ran 
+
+See also: Satellitedatamerge, LongdifferencePlotGDPvsLight
+
+Submitted:  13.03.2019
+
+Input: 'RegressionLongDifference.csv'
+
+Output: 'RegressionLongDifference.pdf' (direct output should be Latex code)
